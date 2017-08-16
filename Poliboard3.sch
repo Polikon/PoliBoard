@@ -881,7 +881,6 @@ Wire Wire Line
 	6000 1750 6450 1750
 Wire Wire Line
 	6000 1850 6450 1850
-NoConn ~ 6000 2150
 NoConn ~ 6000 1350
 $Comp
 L VCC #PWR016
@@ -941,4 +940,8 @@ Wire Wire Line
 	6450 3000 6000 3000
 Wire Wire Line
 	6000 3100 6450 3100
+Text GLabel 6450 2150 2    60   Input ~ 0
+CA8
+Wire Wire Line
+	6000 2150 6450 2150
 $EndSCHEMATC
