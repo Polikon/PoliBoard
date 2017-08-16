@@ -97,6 +97,11 @@ LIBS:Worldsemi
 LIBS:Xicor
 LIBS:zetex
 LIBS:Zilog
+LIBS:IS31FL3236-QFLS2-TR
+LIBS:teensy
+LIBS:IS31FL37XX
+LIBS:crumpschemes
+LIBS:led
 LIBS:Poliboard3-cache
 EELAYER 25 0
 EELAYER END
@@ -192,314 +197,168 @@ $EndComp
 $Comp
 L GND #PWR03
 U 1 1 5994B3B4
-P 7200 4950
-F 0 "#PWR03" H 7200 4700 50  0001 C CNN
-F 1 "GND" H 7200 4800 50  0000 C CNN
-F 2 "" H 7200 4950 50  0001 C CNN
-F 3 "" H 7200 4950 50  0001 C CNN
-	1    7200 4950
+P 1700 7050
+F 0 "#PWR03" H 1700 6800 50  0001 C CNN
+F 1 "GND" H 1700 6900 50  0000 C CNN
+F 2 "" H 1700 7050 50  0001 C CNN
+F 3 "" H 1700 7050 50  0001 C CNN
+	1    1700 7050
 	0    1    1    0   
 $EndComp
 $Sheet
-S 7950 2100 550  2250
+S 2450 4200 550  2250
 U 5994CAEC
 F0 "Keys matrix" 60
 F1 "matrix.sch" 60
 $EndSheet
-Text GLabel 7950 4250 2    60   Input ~ 0
+Text GLabel 2450 6350 2    60   Input ~ 0
 CAPS_LED
-Text GLabel 7950 4050 2    60   Input ~ 0
+Text GLabel 2450 6150 2    60   Input ~ 0
 Col14
-Text GLabel 7950 3950 2    60   Input ~ 0
+Text GLabel 2450 6050 2    60   Input ~ 0
 Col13
-Text GLabel 7950 3850 2    60   Input ~ 0
+Text GLabel 2450 5950 2    60   Input ~ 0
 Col12
-Text GLabel 7950 3750 2    60   Input ~ 0
+Text GLabel 2450 5850 2    60   Input ~ 0
 Col11
-Text GLabel 7950 3650 2    60   Input ~ 0
+Text GLabel 2450 5750 2    60   Input ~ 0
 Col10
-Text GLabel 7950 3550 2    60   Input ~ 0
+Text GLabel 2450 5650 2    60   Input ~ 0
 Col9
-Text GLabel 7950 3450 2    60   Input ~ 0
+Text GLabel 2450 5550 2    60   Input ~ 0
 Col8
-Text GLabel 7950 3350 2    60   Input ~ 0
+Text GLabel 2450 5450 2    60   Input ~ 0
 Col7
-Text GLabel 7950 3250 2    60   Input ~ 0
+Text GLabel 2450 5350 2    60   Input ~ 0
 Col6
-Text GLabel 7950 3150 2    60   Input ~ 0
+Text GLabel 2450 5250 2    60   Input ~ 0
 Col5
-Text GLabel 7950 3050 2    60   Input ~ 0
+Text GLabel 2450 5150 2    60   Input ~ 0
 Col4
-Text GLabel 7950 2950 2    60   Input ~ 0
+Text GLabel 2450 5050 2    60   Input ~ 0
 Col3
-Text GLabel 7950 2850 2    60   Input ~ 0
+Text GLabel 2450 4950 2    60   Input ~ 0
 Col2
-Text GLabel 7950 2750 2    60   Input ~ 0
+Text GLabel 2450 4850 2    60   Input ~ 0
 Col1
-Text GLabel 7950 2600 2    60   Input ~ 0
+Text GLabel 2450 4700 2    60   Input ~ 0
 Row5
-Text GLabel 7950 2500 2    60   Input ~ 0
+Text GLabel 2450 4600 2    60   Input ~ 0
 Row4
-Text GLabel 7950 2400 2    60   Input ~ 0
+Text GLabel 2450 4500 2    60   Input ~ 0
 Row3
-Text GLabel 7950 2300 2    60   Input ~ 0
+Text GLabel 2450 4400 2    60   Input ~ 0
 Row2
-Text GLabel 7950 2200 2    60   Input ~ 0
+Text GLabel 2450 4300 2    60   Input ~ 0
 Row1
 Entry Wire Line
-	7650 2650 7750 2750
+	2150 4750 2250 4850
 Entry Wire Line
-	7650 2750 7750 2850
+	2150 4850 2250 4950
 Entry Wire Line
-	7650 2850 7750 2950
+	2150 4950 2250 5050
 Entry Wire Line
-	7650 2950 7750 3050
+	2150 5050 2250 5150
 Entry Wire Line
-	7650 3050 7750 3150
+	2150 5150 2250 5250
 Entry Wire Line
-	7650 3150 7750 3250
+	2150 5250 2250 5350
 Entry Wire Line
-	7650 3250 7750 3350
-Text Label 7750 2200 0    60   ~ 0
+	2150 5350 2250 5450
+Text Label 2250 4300 0    60   ~ 0
 Row1
-Text Label 7750 2300 0    60   ~ 0
+Text Label 2250 4400 0    60   ~ 0
 Row2
-Text Label 7750 2400 0    60   ~ 0
+Text Label 2250 4500 0    60   ~ 0
 Row3
-Text Label 7750 2500 0    60   ~ 0
+Text Label 2250 4600 0    60   ~ 0
 Row4
-Text Label 7750 2600 0    60   ~ 0
+Text Label 2250 4700 0    60   ~ 0
 Row5
-Text Label 7750 2750 0    60   ~ 0
+Text Label 2250 4850 0    60   ~ 0
 Col1
-Text Label 7750 2850 0    60   ~ 0
+Text Label 2250 4950 0    60   ~ 0
 Col2
-Text Label 7750 2950 0    60   ~ 0
+Text Label 2250 5050 0    60   ~ 0
 Col3
-Text Label 7750 3050 0    60   ~ 0
+Text Label 2250 5150 0    60   ~ 0
 Col4
-Text Label 7750 3150 0    60   ~ 0
+Text Label 2250 5250 0    60   ~ 0
 Col5
-Text Label 7750 3250 0    60   ~ 0
+Text Label 2250 5350 0    60   ~ 0
 Col6
-Text Label 7750 3350 0    60   ~ 0
+Text Label 2250 5450 0    60   ~ 0
 Col7
-Text Label 7700 3450 0    60   ~ 0
+Text Label 2200 5550 0    60   ~ 0
 Col8
-Text Label 7700 3550 0    60   ~ 0
+Text Label 2200 5650 0    60   ~ 0
 Col9
-Text Label 7700 3750 0    60   ~ 0
+Text Label 2200 5850 0    60   ~ 0
 Col11
-Text Label 7700 3850 0    60   ~ 0
+Text Label 2200 5950 0    60   ~ 0
 Col12
-Text Label 7700 3950 0    60   ~ 0
+Text Label 2200 6050 0    60   ~ 0
 Col13
-Text Label 7700 4050 0    60   ~ 0
+Text Label 2200 6150 0    60   ~ 0
 Col14
-Text Label 7750 4250 0    60   ~ 0
+Text Label 2250 6350 0    60   ~ 0
 CAPS_LED
-Text GLabel 1900 2200 2    60   Input ~ 0
-LRow1
-Text GLabel 1900 2300 2    60   Input ~ 0
-LRow2
-Text GLabel 1900 2400 2    60   Input ~ 0
-LRow3
-Text GLabel 1900 2500 2    60   Input ~ 0
-LRow4
-Text GLabel 1900 2600 2    60   Input ~ 0
-LRow5
-$Sheet
-S 1918 2082 782  1468
-U 59910342
-F0 "LED Matrix" 60
-F1 "LED matrix.sch" 60
-$EndSheet
-Text GLabel 2700 2200 0    60   Input ~ 0
-LCol1
-Text GLabel 2700 2300 0    60   Input ~ 0
-LCol2
-Text GLabel 2700 2400 0    60   Input ~ 0
-LCol3
-Text GLabel 2700 2500 0    60   Input ~ 0
-LCol4
-Text GLabel 2700 2600 0    60   Input ~ 0
-LCol5
-Text GLabel 2700 2700 0    60   Input ~ 0
-LCol6
-Text GLabel 2700 2800 0    60   Input ~ 0
-LCol7
-Text GLabel 2700 2900 0    60   Input ~ 0
-LCol8
-Text GLabel 2700 3000 0    60   Input ~ 0
-LCol9
-Text GLabel 2700 3100 0    60   Input ~ 0
-LCol10
-Text GLabel 2700 3200 0    60   Input ~ 0
-LCol11
-Text GLabel 2700 3300 0    60   Input ~ 0
-LCol12
-Text GLabel 2700 3400 0    60   Input ~ 0
-LCol13
-Text GLabel 2700 3500 0    60   Input ~ 0
-LCol14
 $Comp
 L VCC #PWR04
 U 1 1 59966C34
-P 7300 5050
-F 0 "#PWR04" H 7300 4900 50  0001 C CNN
-F 1 "VCC" H 7300 5200 50  0000 C CNN
-F 2 "" H 7300 5050 50  0001 C CNN
-F 3 "" H 7300 5050 50  0001 C CNN
-	1    7300 5050
+P 1800 7150
+F 0 "#PWR04" H 1800 7000 50  0001 C CNN
+F 1 "VCC" H 1800 7300 50  0000 C CNN
+F 2 "" H 1800 7150 50  0001 C CNN
+F 3 "" H 1800 7150 50  0001 C CNN
+	1    1800 7150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L GND #PWR05
 U 1 1 599670E1
-P 7200 4750
-F 0 "#PWR05" H 7200 4500 50  0001 C CNN
-F 1 "GND" H 7200 4600 50  0000 C CNN
-F 2 "" H 7200 4750 50  0001 C CNN
-F 3 "" H 7200 4750 50  0001 C CNN
-	1    7200 4750
+P 1700 6850
+F 0 "#PWR05" H 1700 6600 50  0001 C CNN
+F 1 "GND" H 1700 6700 50  0000 C CNN
+F 2 "" H 1700 6850 50  0001 C CNN
+F 3 "" H 1700 6850 50  0001 C CNN
+	1    1700 6850
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR06
 U 1 1 5996710B
-P 7250 4850
-F 0 "#PWR06" H 7250 4600 50  0001 C CNN
-F 1 "GND" H 7250 4700 50  0000 C CNN
-F 2 "" H 7250 4850 50  0001 C CNN
-F 3 "" H 7250 4850 50  0001 C CNN
-	1    7250 4850
+P 1750 6950
+F 0 "#PWR06" H 1750 6700 50  0001 C CNN
+F 1 "GND" H 1750 6800 50  0000 C CNN
+F 2 "" H 1750 6950 50  0001 C CNN
+F 3 "" H 1750 6950 50  0001 C CNN
+	1    1750 6950
 	0    1    1    0   
-$EndComp
-Text Label 1700 2200 0    60   ~ 0
-LRow1
-Text Label 1700 2400 0    60   ~ 0
-LRow3
-Text Label 1700 2500 0    60   ~ 0
-LRow4
-Text Label 1700 2600 0    60   ~ 0
-LRow5
-Entry Wire Line
-	2900 2900 3000 3000
-Entry Wire Line
-	2900 3000 3000 3100
-Entry Wire Line
-	2900 3100 3000 3200
-Entry Wire Line
-	2900 3200 3000 3300
-Entry Wire Line
-	2900 3300 3000 3400
-Entry Wire Line
-	2900 3400 3000 3500
-Entry Wire Line
-	2900 3500 3000 3600
-Text Label 2750 2200 0    60   ~ 0
-LCol1
-Text Label 2750 2300 0    60   ~ 0
-LCol2
-Text Label 2750 2400 0    60   ~ 0
-LCol3
-Text Label 2750 2500 0    60   ~ 0
-LCol4
-Text Label 2750 2600 0    60   ~ 0
-LCol5
-Text Label 2750 2700 0    60   ~ 0
-LCol6
-Text Label 2750 2800 0    60   ~ 0
-LCol7
-Text Label 2750 2900 0    60   ~ 0
-LCol8
-Text Label 2750 3000 0    60   ~ 0
-LCol9
-Text Label 2750 3100 0    60   ~ 0
-LCol10
-Text Label 2750 3200 0    60   ~ 0
-LCol11
-Text Label 2750 3300 0    60   ~ 0
-LCol12
-Text Label 2750 3400 0    60   ~ 0
-LCol13
-Text Label 2750 3500 0    60   ~ 0
-LCol14
-$Comp
-L CONN_5 P4
-U 1 1 5991D3FC
-P 1200 2400
-F 0 "P4" V 1150 2400 50  0000 C CNN
-F 1 "CONN_5" V 1250 2400 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch1.27mm" H 1200 2400 60  0001 C CNN
-F 3 "" H 1200 2400 60  0001 C CNN
-	1    1200 2400
-	-1   0    0    -1  
 $EndComp
 $Comp
 L CONN_5 P2
 U 1 1 5991E015
-P 7350 2400
-F 0 "P2" V 7300 2400 50  0000 C CNN
-F 1 "CONN_5" V 7400 2400 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch1.27mm" H 7350 2400 60  0001 C CNN
-F 3 "" H 7350 2400 60  0001 C CNN
-	1    7350 2400
+P 1850 4500
+F 0 "P2" V 1800 4500 50  0000 C CNN
+F 1 "CONN_5" V 1900 4500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch1.27mm" H 1850 4500 60  0001 C CNN
+F 3 "" H 1850 4500 60  0001 C CNN
+	1    1850 4500
 	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_7X2 P5
-U 1 1 5991E096
-P 3450 2500
-F 0 "P5" H 3450 2900 60  0000 C CNN
-F 1 "CONN_7X2" V 3450 2500 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x07_Pitch1.27mm" H 3450 2500 60  0001 C CNN
-F 3 "" H 3450 2500 60  0001 C CNN
-	1    3450 2500
-	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_7X2 P3
 U 1 1 5991E399
-P 7300 3750
-F 0 "P3" H 7300 4150 60  0000 C CNN
-F 1 "CONN_7X2" V 7300 3750 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x07_Pitch1.27mm" H 7300 3750 60  0001 C CNN
-F 3 "" H 7300 3750 60  0001 C CNN
-	1    7300 3750
+P 1800 5850
+F 0 "P3" H 1800 6250 60  0000 C CNN
+F 1 "CONN_7X2" V 1800 5850 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x07_Pitch1.27mm" H 1800 5850 60  0001 C CNN
+F 3 "" H 1800 5850 60  0001 C CNN
+	1    1800 5850
 	1    0    0    -1  
 $EndComp
-Text Label 1700 2300 0    60   ~ 0
-LRow2
-Entry Wire Line
-	3950 2200 4050 2300
-Entry Wire Line
-	3950 2300 4050 2400
-Entry Wire Line
-	3950 2400 4050 2500
-Entry Wire Line
-	3950 2500 4050 2600
-Entry Wire Line
-	3950 2600 4050 2700
-Entry Wire Line
-	3950 2700 4050 2800
-Entry Wire Line
-	3950 2800 4050 2900
-Text Label 3850 2200 0    60   ~ 0
-LCol8
-Text Label 3850 2300 0    60   ~ 0
-LCol9
-Text Label 3850 2400 0    60   ~ 0
-LCol10
-Text Label 3850 2500 0    60   ~ 0
-LCol11
-Text Label 3850 2600 0    60   ~ 0
-LCol12
-Text Label 3850 2700 0    60   ~ 0
-LCol13
-Text Label 3850 2800 0    60   ~ 0
-LCol14
-Text Label 7700 3650 0    60   ~ 0
+Text Label 2200 5750 0    60   ~ 0
 Col10
 Wire Wire Line
 	700  800  700  1000
@@ -534,185 +393,127 @@ Wire Wire Line
 	900  1200 900  1300
 Connection ~ 900  1300
 Wire Wire Line
-	7350 4250 7950 4250
+	1850 6350 2450 6350
 Wire Wire Line
-	7700 4050 7950 4050
+	2200 6150 2450 6150
 Wire Wire Line
-	7700 3950 7950 3950
+	2200 6050 2450 6050
 Wire Wire Line
-	7700 3850 7950 3850
+	2200 5950 2450 5950
 Wire Wire Line
-	7700 3750 7950 3750
+	2200 5850 2450 5850
 Wire Wire Line
-	7700 3650 7950 3650
+	2200 5750 2450 5750
 Wire Wire Line
-	7700 3550 7950 3550
+	2200 5650 2450 5650
 Wire Wire Line
-	7700 3450 7950 3450
+	2200 5550 2450 5550
 Wire Wire Line
-	7750 3350 7950 3350
+	2250 5450 2450 5450
 Wire Wire Line
-	7750 3250 7950 3250
+	2250 5350 2450 5350
 Wire Wire Line
-	7750 3150 7950 3150
+	2250 5250 2450 5250
 Wire Wire Line
-	7750 3050 7950 3050
+	2250 5150 2450 5150
 Wire Wire Line
-	7750 2950 7950 2950
+	2250 5050 2450 5050
 Wire Wire Line
-	7750 2850 7950 2850
+	2250 4950 2450 4950
 Wire Wire Line
-	7750 2750 7950 2750
+	2250 4850 2450 4850
 Wire Wire Line
-	7750 2600 7950 2600
+	2250 4700 2450 4700
 Wire Wire Line
-	7750 2500 7950 2500
+	2250 4600 2450 4600
 Wire Wire Line
-	7750 2400 7950 2400
+	2250 4500 2450 4500
 Wire Wire Line
-	7750 2300 7950 2300
+	2250 4400 2450 4400
 Wire Wire Line
-	7750 2200 7950 2200
+	2250 4300 2450 4300
 Wire Wire Line
-	1600 2200 1900 2200
+	1700 6850 1850 6850
 Wire Wire Line
-	1600 2300 1900 2300
+	1750 6950 1850 6950
 Wire Wire Line
-	1600 2400 1900 2400
+	1700 7050 1850 7050
 Wire Wire Line
-	1600 2500 1900 2500
-Wire Wire Line
-	1600 2600 1900 2600
-Wire Wire Line
-	2700 2200 3050 2200
-Wire Wire Line
-	2700 2300 3050 2300
-Wire Wire Line
-	2700 2400 3050 2400
-Wire Wire Line
-	2700 2500 3050 2500
-Wire Wire Line
-	2700 2600 3050 2600
-Wire Wire Line
-	2700 2700 3050 2700
-Wire Wire Line
-	2700 2800 3050 2800
-Wire Wire Line
-	2700 2900 2900 2900
-Wire Wire Line
-	2700 3000 2900 3000
-Wire Wire Line
-	2700 3100 2900 3100
-Wire Wire Line
-	2700 3200 2900 3200
-Wire Wire Line
-	2700 3300 2900 3300
-Wire Wire Line
-	2700 3400 2900 3400
-Wire Wire Line
-	2700 3500 2900 3500
+	1800 7150 1850 7150
 Wire Bus Line
-	3000 3600 4050 3600
+	2150 4750 2150 5350
 Wire Bus Line
-	4050 3600 4050 2150
+	2150 5350 1100 5350
+Entry Wire Line
+	1100 5450 1200 5550
+Entry Wire Line
+	1100 5550 1200 5650
+Entry Wire Line
+	1100 5650 1200 5750
+Entry Wire Line
+	1100 5750 1200 5850
+Entry Wire Line
+	1100 5850 1200 5950
+Entry Wire Line
+	1100 5950 1200 6050
+Entry Wire Line
+	1100 6050 1200 6150
 Wire Bus Line
-	3000 3000 3000 3600
+	1100 5350 1100 6050
 Wire Wire Line
-	3850 2800 3950 2800
+	1200 5550 1400 5550
 Wire Wire Line
-	3950 2700 3850 2700
+	1400 5650 1200 5650
 Wire Wire Line
-	3850 2600 3950 2600
+	1200 5750 1400 5750
 Wire Wire Line
-	3950 2500 3850 2500
+	1400 5850 1200 5850
 Wire Wire Line
-	3850 2400 3950 2400
+	1200 5950 1400 5950
 Wire Wire Line
-	3950 2300 3850 2300
+	1400 6050 1200 6050
 Wire Wire Line
-	3850 2200 3950 2200
-Wire Wire Line
-	7200 4750 7350 4750
-Wire Wire Line
-	7250 4850 7350 4850
-Wire Wire Line
-	7200 4950 7350 4950
-Wire Wire Line
-	7300 5050 7350 5050
-Wire Bus Line
-	7650 2650 7650 3250
-Wire Bus Line
-	7650 3250 6600 3250
-Entry Wire Line
-	6600 3350 6700 3450
-Entry Wire Line
-	6600 3450 6700 3550
-Entry Wire Line
-	6600 3550 6700 3650
-Entry Wire Line
-	6600 3650 6700 3750
-Entry Wire Line
-	6600 3750 6700 3850
-Entry Wire Line
-	6600 3850 6700 3950
-Entry Wire Line
-	6600 3950 6700 4050
-Wire Bus Line
-	6600 3250 6600 3950
-Wire Wire Line
-	6700 3450 6900 3450
-Wire Wire Line
-	6900 3550 6700 3550
-Wire Wire Line
-	6700 3650 6900 3650
-Wire Wire Line
-	6900 3750 6700 3750
-Wire Wire Line
-	6700 3850 6900 3850
-Wire Wire Line
-	6900 3950 6700 3950
-Wire Wire Line
-	6700 4050 6900 4050
-Text Label 6700 3450 0    60   ~ 0
+	1200 6150 1400 6150
+Text Label 1200 5550 0    60   ~ 0
 Col1
-Text Label 6700 3550 0    60   ~ 0
+Text Label 1200 5650 0    60   ~ 0
 Col2
-Text Label 6700 3650 0    60   ~ 0
+Text Label 1200 5750 0    60   ~ 0
 Col3
-Text Label 6700 3750 0    60   ~ 0
+Text Label 1200 5850 0    60   ~ 0
 Col4
-Text Label 6700 3850 0    60   ~ 0
+Text Label 1200 5950 0    60   ~ 0
 Col5
-Text Label 6700 3950 0    60   ~ 0
+Text Label 1200 6050 0    60   ~ 0
 Col6
-Text Label 6700 4050 0    60   ~ 0
+Text Label 1200 6150 0    60   ~ 0
 Col7
 $Comp
 L VCC #PWR07
 U 1 1 5992798B
-P 7250 4650
-F 0 "#PWR07" H 7250 4750 30  0001 C CNN
-F 1 "VCC" H 7250 4750 30  0000 C CNN
-F 2 "" H 7250 4650 60  0001 C CNN
-F 3 "" H 7250 4650 60  0001 C CNN
-	1    7250 4650
+P 1750 6750
+F 0 "#PWR07" H 1750 6850 30  0001 C CNN
+F 1 "VCC" H 1750 6850 30  0000 C CNN
+F 2 "" H 1750 6750 60  0001 C CNN
+F 3 "" H 1750 6750 60  0001 C CNN
+	1    1750 6750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7250 4650 7350 4650
+	1750 6750 1850 6750
 $Comp
 L CONN_6 P1
 U 1 1 59928FE5
-P 7700 4800
-F 0 "P1" V 7650 4800 60  0000 C CNN
-F 1 "CONN_6" V 7750 4800 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch1.27mm" H 7700 4800 60  0001 C CNN
-F 3 "" H 7700 4800 60  0001 C CNN
-	1    7700 4800
+P 2200 6900
+F 0 "P1" V 2150 6900 60  0000 C CNN
+F 1 "CONN_6" V 2250 6900 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch1.27mm" H 2200 6900 60  0001 C CNN
+F 3 "" H 2200 6900 60  0001 C CNN
+	1    2200 6900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7350 4250 7350 4550
+	1850 6350 1850 6650
 $Comp
 L Mounting_Hole HOLE1
 U 1 1 59929BBF
@@ -779,4 +580,365 @@ F 3 "" H 9650 6300 50  0001 C CNN
 	1    9650 6300
 	1    0    0    -1  
 $EndComp
+$Comp
+L CONN_1 GND5
+U 1 1 5992AC27
+P 8200 6000
+F 0 "GND5" H 8280 6000 40  0000 L CNN
+F 1 "CONN_1" H 8200 6055 30  0001 C CNN
+F 2 "keyboard_parts:PIN_1" H 8200 6000 60  0001 C CNN
+F 3 "" H 8200 6000 60  0001 C CNN
+	1    8200 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 GND4
+U 1 1 5992AC70
+P 8200 5900
+F 0 "GND4" H 8280 5900 40  0000 L CNN
+F 1 "CONN_1" H 8200 5955 30  0001 C CNN
+F 2 "keyboard_parts:PIN_1" H 8200 5900 60  0001 C CNN
+F 3 "" H 8200 5900 60  0001 C CNN
+	1    8200 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 GND3
+U 1 1 5992ACB7
+P 8200 5800
+F 0 "GND3" H 8280 5800 40  0000 L CNN
+F 1 "CONN_1" H 8200 5855 30  0001 C CNN
+F 2 "keyboard_parts:PIN_1" H 8200 5800 60  0001 C CNN
+F 3 "" H 8200 5800 60  0001 C CNN
+	1    8200 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 GND2
+U 1 1 5992ACF6
+P 8200 5700
+F 0 "GND2" H 8280 5700 40  0000 L CNN
+F 1 "CONN_1" H 8200 5755 30  0001 C CNN
+F 2 "keyboard_parts:PIN_1" H 8200 5700 60  0001 C CNN
+F 3 "" H 8200 5700 60  0001 C CNN
+	1    8200 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 GND1
+U 1 1 5992AD39
+P 8200 5600
+F 0 "GND1" H 8280 5600 40  0000 L CNN
+F 1 "CONN_1" H 8200 5655 30  0001 C CNN
+F 2 "keyboard_parts:PIN_1" H 8200 5600 60  0001 C CNN
+F 3 "" H 8200 5600 60  0001 C CNN
+	1    8200 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 5992AD94
+P 8050 6000
+F 0 "#PWR08" H 8050 6000 30  0001 C CNN
+F 1 "GND" H 8050 5930 30  0001 C CNN
+F 2 "" H 8050 6000 60  0001 C CNN
+F 3 "" H 8050 6000 60  0001 C CNN
+	1    8050 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 5992ADD2
+P 8050 5900
+F 0 "#PWR09" H 8050 5900 30  0001 C CNN
+F 1 "GND" H 8050 5830 30  0001 C CNN
+F 2 "" H 8050 5900 60  0001 C CNN
+F 3 "" H 8050 5900 60  0001 C CNN
+	1    8050 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 5992AE10
+P 8050 5800
+F 0 "#PWR010" H 8050 5800 30  0001 C CNN
+F 1 "GND" H 8050 5730 30  0001 C CNN
+F 2 "" H 8050 5800 60  0001 C CNN
+F 3 "" H 8050 5800 60  0001 C CNN
+	1    8050 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 5992AE4E
+P 8050 5700
+F 0 "#PWR011" H 8050 5700 30  0001 C CNN
+F 1 "GND" H 8050 5630 30  0001 C CNN
+F 2 "" H 8050 5700 60  0001 C CNN
+F 3 "" H 8050 5700 60  0001 C CNN
+	1    8050 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 5992AE8C
+P 8050 5600
+F 0 "#PWR012" H 8050 5600 30  0001 C CNN
+F 1 "GND" H 8050 5530 30  0001 C CNN
+F 2 "" H 8050 5600 60  0001 C CNN
+F 3 "" H 8050 5600 60  0001 C CNN
+	1    8050 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L VCC #PWR013
+U 1 1 59954111
+P 4800 1300
+F 0 "#PWR013" H 4800 1400 30  0001 C CNN
+F 1 "VCC" H 4800 1400 30  0000 C CNN
+F 2 "" H 4800 1300 60  0001 C CNN
+F 3 "" H 4800 1300 60  0001 C CNN
+	1    4800 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L IS31FL3731 U1
+U 1 1 5995A9D5
+P 5400 2150
+F 0 "U1" H 4899 3152 50  0000 L BNN
+F 1 "IS31FL3731" H 4900 1149 50  0000 L BNN
+F 2 "Custom:IS31FL3731" H 5250 2050 50  0001 L BNN
+F 3 "" H 5250 2600 50  0001 L BNN
+	1    5400 2150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4800 2500
+Wire Wire Line
+	4350 2800 4800 2800
+$Comp
+L GND #PWR014
+U 1 1 5995B5FB
+P 4450 3400
+F 0 "#PWR014" H 4450 3400 30  0001 C CNN
+F 1 "GND" H 4450 3330 30  0001 C CNN
+F 2 "" H 4450 3400 60  0001 C CNN
+F 3 "" H 4450 3400 60  0001 C CNN
+	1    4450 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C1
+U 1 1 5995C649
+P 4550 2950
+F 0 "C1" H 4560 3020 50  0000 L CNN
+F 1 "1u" H 4560 2870 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4550 2950 50  0001 C CNN
+F 3 "" H 4550 2950 50  0001 C CNN
+	1    4550 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 2900 4700 2900
+Wire Wire Line
+	4700 2900 4700 2850
+Wire Wire Line
+	4700 2850 4550 2850
+Wire Wire Line
+	4800 3000 4700 3000
+Wire Wire Line
+	4700 3000 4700 3050
+Wire Wire Line
+	4700 3050 4550 3050
+$Comp
+L R R1
+U 1 1 5995D2EC
+P 4350 3050
+F 0 "R1" V 4430 3050 50  0000 C CNN
+F 1 "20kOhm" V 4350 3050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4350 3050 60  0001 C CNN
+F 3 "" H 4350 3050 60  0001 C CNN
+	1    4350 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3300 4550 3300
+Wire Wire Line
+	4550 3300 4550 3050
+Wire Wire Line
+	4800 3100 4550 3100
+Connection ~ 4550 3100
+Wire Wire Line
+	4450 3300 4450 3400
+Connection ~ 4450 3300
+$Comp
+L CONN_4 P4
+U 1 1 599602C8
+P 3900 2050
+F 0 "P4" V 3850 2050 50  0000 C CNN
+F 1 "CONN_4" V 3950 2050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch1.27mm" H 3900 2050 60  0001 C CNN
+F 3 "" H 3900 2050 60  0001 C CNN
+	1    3900 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4250 1900 4800 1900
+Wire Wire Line
+	4250 2000 4800 2000
+Wire Wire Line
+	4250 2100 4800 2100
+Wire Wire Line
+	4250 2200 4800 2200
+$Comp
+L R R3
+U 1 1 5996098C
+P 4300 1600
+F 0 "R3" V 4380 1600 50  0000 C CNN
+F 1 "4.7kOhm" V 4300 1600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4300 1600 60  0001 C CNN
+F 3 "" H 4300 1600 60  0001 C CNN
+	1    4300 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 599609E9
+P 4450 1600
+F 0 "R4" V 4530 1600 50  0000 C CNN
+F 1 "4.7kOhm" V 4450 1600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4450 1600 60  0001 C CNN
+F 3 "" H 4450 1600 60  0001 C CNN
+	1    4450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 59960A3C
+P 4600 1600
+F 0 "R5" V 4680 1600 50  0000 C CNN
+F 1 "4.7kOhm" V 4600 1600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4600 1600 60  0001 C CNN
+F 3 "" H 4600 1600 60  0001 C CNN
+	1    4600 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 59960A89
+P 4550 2450
+F 0 "R2" V 4630 2450 50  0000 C CNN
+F 1 "100kOhm" V 4550 2450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4550 2450 60  0001 C CNN
+F 3 "" H 4550 2450 60  0001 C CNN
+	1    4550 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 59960AF2
+P 4550 2700
+F 0 "#PWR015" H 4550 2700 30  0001 C CNN
+F 1 "GND" H 4550 2630 30  0001 C CNN
+F 2 "" H 4550 2700 60  0001 C CNN
+F 3 "" H 4550 2700 60  0001 C CNN
+	1    4550 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 1350 4600 1350
+Connection ~ 4450 1350
+Connection ~ 4300 1350
+Wire Wire Line
+	4300 1850 4300 2100
+Connection ~ 4300 2100
+Wire Wire Line
+	4450 1850 4450 2000
+Connection ~ 4450 2000
+Connection ~ 4550 2200
+$Sheet
+S 6450 1350 500  1850
+U 599780CD
+F0 "Charlieplex LED" 60
+F1 "Charlieplex LED.sch" 60
+$EndSheet
+Text GLabel 6450 1450 2    60   Input ~ 0
+CA1
+Text GLabel 6450 1550 2    60   Input ~ 0
+CA2
+Text GLabel 6450 1650 2    60   Input ~ 0
+CA3
+Text GLabel 6450 1750 2    60   Input ~ 0
+CA4
+Text GLabel 6450 1850 2    60   Input ~ 0
+CA5
+Wire Wire Line
+	6000 1450 6450 1450
+Wire Wire Line
+	6000 1550 6450 1550
+Wire Wire Line
+	6000 1650 6450 1650
+Wire Wire Line
+	6000 1750 6450 1750
+Wire Wire Line
+	6000 1850 6450 1850
+NoConn ~ 6000 2150
+NoConn ~ 6000 1350
+$Comp
+L VCC #PWR016
+U 1 1 599BF4BF
+P 4200 1350
+F 0 "#PWR016" H 4200 1450 30  0001 C CNN
+F 1 "VCC" H 4200 1450 30  0000 C CNN
+F 2 "" H 4200 1350 60  0001 C CNN
+F 3 "" H 4200 1350 60  0001 C CNN
+	1    4200 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 1850 4600 1900
+Connection ~ 4600 1900
+Text GLabel 6450 1950 2    60   Input ~ 0
+CA6
+Text GLabel 6450 2050 2    60   Input ~ 0
+CA7
+Wire Wire Line
+	6000 1950 6450 1950
+Wire Wire Line
+	6450 2050 6000 2050
+Text GLabel 6450 2300 2    60   Input ~ 0
+CB1
+Text GLabel 6450 2400 2    60   Input ~ 0
+CB2
+Text GLabel 6450 2500 2    60   Input ~ 0
+CB3
+Text GLabel 6450 2600 2    60   Input ~ 0
+CB4
+Text GLabel 6450 2700 2    60   Input ~ 0
+CB5
+Text GLabel 6450 2800 2    60   Input ~ 0
+CB6
+Text GLabel 6450 2900 2    60   Input ~ 0
+CB7
+Text GLabel 6450 3000 2    60   Input ~ 0
+CB8
+Text GLabel 6450 3100 2    60   Input ~ 0
+CB9
+Wire Wire Line
+	6000 2300 6450 2300
+Wire Wire Line
+	6450 2400 6000 2400
+Wire Wire Line
+	6000 2500 6450 2500
+Wire Wire Line
+	6450 2600 6000 2600
+Wire Wire Line
+	6000 2700 6450 2700
+Wire Wire Line
+	6450 2800 6000 2800
+Wire Wire Line
+	6000 2900 6450 2900
+Wire Wire Line
+	6450 3000 6000 3000
+Wire Wire Line
+	6000 3100 6450 3100
 $EndSCHEMATC

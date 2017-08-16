@@ -1,4 +1,4 @@
-update=13/08/2017 08:24:12
+update=16/08/2017 03:12:11
 version=1
 last_client=kicad
 [pcbnew]
@@ -156,3 +156,8 @@ LibName124=F:/KiCad/share/kicad/library/Xicor
 LibName125=F:/KiCad/share/kicad/library/xilinx
 LibName126=F:/KiCad/share/kicad/library/zetex
 LibName127=F:/KiCad/share/kicad/library/Zilog
+LibName128=F:/KiCad/share/kicad/library/IS31FL3236-QFLS2-TR
+LibName129=F:/KiCad/share/kicad/library/teensy
+LibName130=F:/KiCad/share/kicad/library/IS31FL37XX
+LibName131=F:/KiCad/share/kicad/library/crumpschemes
+LibName132=F:/KiCad/share/kicad/library/led
