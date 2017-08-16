@@ -5,7 +5,7 @@ The size of the board and all the holes match the GH60, so it should be compatib
 
 I am looking for someone to check if my wiring is fine. I am also looking for advice as to how to wire the Teensy, as in which of my pins (p0-p43) connects where. As this is the first pcb a scratched together I would appreciate any and all feedback.
 
-Important files
+Important files:
 
 IS31FL3731 datasheet: http://www.mouser.com/ds/2/198/31FL3731-258525.pdf
 
@@ -16,4 +16,5 @@ Teensy power consumption: https://www.pjrc.com/teensy/low_power.html
 Teensy 3.3v guide https://www.pjrc.com/teensy/3volt.html
 
 Formulas:
+
 I=64.7/R_Ext <-- Formula for current in LED charliematrix. Taken from datasheet pg19
